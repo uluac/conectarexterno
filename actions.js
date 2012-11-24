@@ -10,7 +10,7 @@ function loginConn(nick,pass){
 	datos = "name="+nick+"&password="+pass;
 	$.ajax({
 		type: "POST",
-		url: "http://192.168.1.193/loginApp/login.php",
+		url: "http://192.168.1.101/loginApp/login.php",
 		data: datos
 	}).done(function( msg ) {
 		alert(msg);
